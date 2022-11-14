@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+		
+
+.word1{
+animation: pic1 7s linear infinite 5s;
+}
+
+.word7{
+animation: pic7 7s linear infinite 5s;
+}
+
+.word3{
+animation: pic3 12s linear infinite 12s;
+font-size: 2em;
+color: floralwhite;
+}
+.word4{
+animation: pic4 3s linear infinite 3s;
+font-size: 2em;
+color: cadetblue;
+}
+.word5{
+animation: pic5 12s linear infinite 12s;
+font-size: 4.5em;
+color: sienna;
+}
+.word6{
+animation: pic6 20s linear infinite 21s;
+font-size: 7.5em;
+color: green;
+}
+
+div.word3 {
+  width: 100%;
+  height: 70%;
+  background-color: red;
+
+  animation: pic3 12s linear infinite 15s;
+}
+div.word7 {
+  width: 60%;
+  height: 50%;
+  background-color: blue;
+
+  animation: pic7 6s linear infinite 8s;
+}
+
+div.word {
+  width: 90%;
+  background-color: grey;
+  box-shadow: 3 9px 12px 2 rgba(2, 2, 3, 1), 0 1px 3px 0 rgba(1, 2, 2, 3);
+  margin-top: 5px;
+  animation: pic 7s linear infinite 5s;
+}
+
+@keyframes pic6 {
+    0% { opacity: 1.2; animation-timing-function: ease-in}
+   
+    75% { opacity: .25; animation-timing-function: ease-out}
+    85% { opacity: 1.2; animation-timing-function: ease-in}
+    100% { opacity: 1; }
+}
+@keyframes pic7 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+    75% { opacity: .5; animation-timing-function: ease-out}
+    100% { opacity: 1; }
+}
+@keyframes pic4 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+    75% { opacity: .5; animation-timing-function: ease-out}
+    100% { opacity: 1; }
+}
+@keyframes pic5 {
+    0% { opacity: 1; animation-timing-function: ease-out}
+    50% { opacity: 0.3; animation-timing-function: ease-in}
+    75% { opacity: 1; animation-timing-function: ease-out}
+    100% { opacity: 0; }
+}
+@keyframes pic1 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+ 
+    100% { opacity: 1; }
+}
+@keyframes pic3 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+ 
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fishing {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-30px); }
+    70% { transform: translateY(0px); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes fishing {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    65% { transform: translateY(30px); }
+    100% { transform: translateY(-40px); }
+}
+body {
+    
+    background-color: pink;
+     transition:background 3s 
+}
+body:hover {
+
+ background-color: royalblue
+
+}
+h1{
+    color: darkgreen;
+    text-align:center;
+}
+h2{
+    font-size: 3em;
+    text-align:center;
+}
+
+img#dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	float: right;
+	opacity: 1;
+}
+img#dog1 {
+    display: block;
+	float: left;
+	margin-right: 3em;
+	opacity: 0.2;
+}
+img#fish {
+	float: center;
+	margin-right: 5em;
+	opacity: 0.9;
+	-webkit-animation: fishing 3.5s infinite  alternate;
+    animation: fishing 4s infinite  alternate;
+}
+		</style>
+	</head>
+	<body>
+	    <div class="word3">
+	        <h2>Identity Lost</h2> 
+	    </div>
+	   
+	    <div class="word1">
+		
+	<img id="fish" src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=4050&q=80" alt="thin" width="1800" height="380">
+
+	</div>
+	<h1 class="word4">i am a cat</h1>
+	<div class="word7">
+		<img id="dog" src="dogb.jpg" alt="dog" width="400" height="300">
+		</div>
+	<h2 class="word5">not you're not!</h2>
+	<h1 class="word4">and dreams of</h1><br>
+	<h1 class="word4">fishes</h1>
+		<h3 class="word6">(will be)</h3>
+	<h2 class="word5">chasing cats</h2>
+
+	    <div class="word">
+	
+<img id="dog1" src="doga.jpg" alt="doggy" width="400" height="300">
+
+	</div>
+
+		
+	</body>
+</html>
